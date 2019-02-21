@@ -11,6 +11,7 @@ public class QueueImpl<E> implements Queue<E> {
     protected int front;
     protected int rear;
 
+
     public QueueImpl(int maxSize) {
         this.data = (E[]) new Object[maxSize];
         this.size = 0;
